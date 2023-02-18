@@ -11,3 +11,93 @@
     --inactive-state: #A0A4A8;
     --default-text: #CACCCF;
 }
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* header */
+
+.header {
+    background-image: url('./assets/images/olives-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 729px;
+}
+
+/* header navigation */
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 106px;
+}
+
+.header__nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header__nav__list > li {
+    list-style-type: none;
+}
+
+.header__nav__list > li > a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.header__nav__btn {
+    background-color: #FFF;
+    opacity: 0.6;
+
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+
+    width: 195px;
+    padding: 20px 24px;
+}
+
+/* header main */
+
+.header__heading {
+    padding: 168px 106px 70px;
+    display: flex;
+    flex-direction: column;
+    color: var(--secondary);
+    row-gap: 8px;
+    width: 50%;
+}
+
+.header__heading__subtitle, .header__heading__description { 
+    font-size: 18px;
+    text-transform: lowercase;
+    font-weight: 500;
+    margin: 0;
+    width: 75%;
+    line-height: 24px;
+}
+
+.header__heading__title {
+    font-size: 44px;
+    color: var(--primary);
+    font-weight: 500;
+    margin: 0;
+}
+
+.header__heading__title > em {
+    font-style: normal;
+    color: var(--secondary);
+}
