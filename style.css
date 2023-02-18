@@ -1,0 +1,13 @@
+:root {
+    --primary-bg: #F9F9FA;
+    --primary: #697B03;
+    --secondary: #7E4E24;
+    --error: #FB4E4E;
+    --warning: #E3C300;
+    --success: #CBDD7A;
+    --primary-border: #E8E8E8;
+    --primary-text: #25282B;
+    --secondary-text: #25282B;
+    --inactive-state: #A0A4A8;
+    --default-text: #CACCCF;
+}
