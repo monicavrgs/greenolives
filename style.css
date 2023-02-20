@@ -22,6 +22,9 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
 /* header */
 
 .header {
@@ -64,7 +67,6 @@ a {
     }
 
     .header__nav__list--mobile--open > li  {
-        list-style: none;
         padding: 10px 10px;
         width: 100%;
     }
@@ -196,10 +198,6 @@ a {
     column-gap: 25px;
     font-size: 18px;
     font-weight: 500;
-}
-
-.header__nav__list > li {
-    list-style-type: none;
 }
 
 .header__nav__list > li > a {
@@ -383,9 +381,6 @@ a {
 .footer__top__nav__list {
     text-align: left;
     margin: 0;
-}
-.footer__top__nav__list > li {
-    list-style: none;
 }
 
 .footer__top__nav__list > li:not(:first-child) {
